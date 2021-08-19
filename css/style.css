@@ -6,7 +6,7 @@
 .container {
 	min-height: 80vh;
 	width: 90%;
-	padding: 30px;
+	padding: 15px;
 	padding-top: 50px;
 	display: flex;
 	align-items: center;
@@ -94,10 +94,12 @@ footer {
 	justify-content: center;
 }
 
-.icons img {
-	width: 23px;
+.icons ion-icon {
+	font-size: 26px;
+	color: blue;
 	margin: 0 5px;
-}
+  }
+
 .icons {
 	margin-top: 20px;
 	align-items: center;
@@ -105,9 +107,8 @@ footer {
 	display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 5%;
 }
-a:hover, a:active {
+.icons ion-icon:hover, .icons ion-icon:active {
     background-color: hsl(223, 87%, 63%);
     color: white;
 	border-radius: 50%;
